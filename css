@@ -1,0 +1,306 @@
+ /*{
+  border: .25px solid red;
+}*/
+
+/****************************
+General
+****************************/
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#BANNER {
+  text-align: center;
+  margin: 0;
+  height: 550px;
+  width: 100%;
+}
+#WHY {
+  margin: 0;
+  height: 450px;
+}
+
+#ABOUT {
+  margin: 0;
+  height: 450px;
+}
+
+#CONTACT {
+  text-align: center;
+  margin: 0;
+  height: 450px;
+}
+
+
+/****************************
+Header
+****************************/
+
+
+header {
+  width: 100%;
+}
+
+header img {
+  text-align: center;
+  max-width: 70%;
+  margin: 1.5% 15% 0% 15%;
+}
+
+nav {
+  text-align: center;
+  background-color: #292929;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+
+nav a {
+  color: white;
+  padding: 15px 5px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  
+}
+
+.hidden_for_mobile {
+  display: none;
+}
+
+
+/****************************
+Homepage Banner
+****************************/
+
+
+#BANNER h1  {
+  position: relative;
+  top: 240px;
+  margin: 0;
+  color: white;
+  text-shadow: .75px .75px #000;
+  font-size: 1.9em;
+}
+
+#BANNER p {
+  position: relative;
+  top: 240px;
+  color: white;
+  width: 150px;
+  margin: 10px auto;
+  padding: 10px 0 10px 0;
+  background-color: #87CEFA;
+  border-radius: 5px;
+}
+
+#BANNER p:hover {
+  background-color: #87CEab;
+}
+
+.banner_image {
+  position: relative;
+  z-index: -1;
+  top: -153px;
+  background: url('../img/2trikes_backcountry.jpg') no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  
+}
+
+
+/****************************
+Contact
+****************************/
+
+#google_map { 
+  position: relative;
+  z-index: -1;
+  top: -550px;
+  background: url('../img/Screen%20Shot%202017-03-01%20at%204.42.25%20PM.png') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+#upper_contact {
+  margin: 10px auto 10px auto;
+  padding: 0;
+  list-style: none;
+}
+
+#upper_contact li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  color: #bdc3c7;
+}
+
+#store_locator img {
+  margin: 10px 10px -10px 10px;
+  max-width: 150px; 
+  border: 2px solid #979797;
+}
+
+#store_locator h3 {
+  position: relative;
+  height: 23px;
+  width: 92px;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  background: #D8D8D8;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.50);
+  padding-top: 5px;
+}
+
+#captcha {
+  height: 20px;
+}
+
+#lower_contact {
+  margin: 0;
+  padding: 0;
+}
+
+#lower_contact h3 {
+  text-align: center;
+}
+
+#contact_name, #contact_email {
+  text-align: left;
+  padding: 9px 0 0 6px;
+  color: #9b9b9b;
+  height: 30px;
+  width: 75%;
+  background: #FFF;
+  border: 1px solid #9B9B9B;
+  border-radius: 5px;
+  margin: 3px auto 3px auto;
+}
+
+#contact_message {
+  text-align: left;
+  padding: 9px 0 0 6px;
+  color: #9b9b9b;
+  height: 100px;
+  width: 75%;
+  background: #FFF;
+  border: 1px solid #9B9B9B;
+  border-radius: 5px;
+  margin: 3px auto 3px auto;
+
+}
+
+#contact_robot {
+  text-align: left;
+  padding: 9px 0 0 6px;
+  color: #9b9b9b;
+  height: 30px;
+  width: 50%;
+  background: #fff;
+  border: 1px solid #9B9B9B;
+  border-radius: 5px;
+  margin: 3px 90% 3px 10%;
+
+}
+
+
+/* Rectangle 9: 
+background: #D8D8D8;
+border: 1px solid #9B9B9B;
+border-radius: 5px;*/
+
+/* Virtual Tour: 
+font-family: ArialMT;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+text-shadow: 0 2px 3px rgba(0,0,0,0.50);*/
+
+
+
+
+/****************************
+Footer
+****************************/
+
+
+footer {
+  width: 100%;
+  background-color: #292929;
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  text-align: center; 
+}
+
+footer h4 {
+  letter-spacing: .75px;
+  color: white;
+  font-size: .9em;
+  margin-bottom: 4px;
+}
+
+footer p {
+  color: #949494;
+  margin: 2px 0 2px 0;
+}
+
+footer a {
+  color: #949494;
+}
+
+footer a:hover {
+  color: #87CEab;
+}
+
+#hours {
+  margin: 0;
+}
+
+#copyright {
+  color: #8B8C8B;
+  background: white;
+  text-align: center;
+  padding: 7px;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
